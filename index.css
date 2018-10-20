@@ -1,0 +1,56 @@
+*{
+	margin:0;
+	padding:0;
+}
+.main .header{
+	width:100px;
+	height:50px;
+	margin:20px auto;
+}
+.main .header .fenshu{
+	text-align:center;
+	line-height:50px;
+	color:#ccc;
+	font-size:20px;
+	font-weight:bold;
+}
+.main .content{
+	width:540px;
+	height:400px;
+	margin:100px auto;
+	border:1px solid black;
+	position:relative;
+}
+.food{
+	background-color: #666;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+}
+.head{
+	background-color: black;
+	border-radius:50%;
+}
+.body{
+	background-color: #ccc;
+	border-radius:50%;
+}
+.startBtn{
+	width:90px;
+	height:45px;
+	display: block;
+	background-color: #66b1ff;
+	position:relative;
+	margin:-300px auto;
+	border-radius:20px;
+	outline: none;
+	border:none;
+	cursor: pointer;
+	text-align: center;
+	line-height: 45px;
+	color:#fff;
+	font-size:18px;
+}
+.startBtn:hover{
+	background-color: #40d1ff;
+}
